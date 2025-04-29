@@ -1,0 +1,16 @@
+name: 'Slack Markdown Converter'
+author: 'step-security'
+description: "Converts markdown to Slack's mrkdwn"
+inputs:
+  text:
+    description: 'Markdown text to convert'
+    required: true
+outputs:
+  text:
+    description: 'Converted Slack mrkdwn text'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+branding:
+  icon: 'heart'
+  color: 'red'
