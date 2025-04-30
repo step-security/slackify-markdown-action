@@ -1,0 +1,33 @@
+{
+  "name": "slackify-markdown-action",
+  "version": "1.0.1",
+  "description": "GitHub Action to convert markdown into Slack's mrkdwn.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/slackify-markdown-action.git"
+  },
+  "keywords": [
+    "Slack",
+    "markdown",
+    "mrkdwn"
+  ],
+  "author": "step-security",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/step-security/slackify-markdown-action/issues"
+  },
+  "homepage": "https://github.com/step-security/slackify-markdown-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "slackify-markdown": "^4.3.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3",
+    "axios": "^1.9.0"
+  }
+}
