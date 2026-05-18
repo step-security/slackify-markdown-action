@@ -26254,7 +26254,7 @@ async function validateSubscription() {
     repoPrivate = payload?.repository?.private;
   }
 
-  const upstream = "jsarafajr/slackify-markdown";
+  const upstream = "LoveToKnow/slackify-markdown-action";
   const action = process.env.GITHUB_ACTION_REPOSITORY;
   const docsUrl =
     "https://docs.stepsecurity.io/actions/stepsecurity-maintained-actions";
